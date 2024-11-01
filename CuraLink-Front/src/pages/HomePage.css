@@ -1,0 +1,142 @@
+/* src/pages/HomePage.css */
+.homepage {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #073b74; /* Color de fondo principal */
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .main-section {
+    flex: 2;
+    text-align: center;
+  }
+  .main-logo {
+    /*display: inline-block;*/
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 5rem;
+  }
+
+  .main-logo img {
+    border-radius: 50%;
+    height: 15rem;
+  }
+  .main-logo h1 {
+    display: inline-block;
+    font-size: 8rem;
+    color: #00caff;
+    margin-top: 1rem;
+  }
+  
+  .main-logo p {
+    font-size: 4rem;
+    color: #a0d6ff;
+    margin-top: 0.5rem;
+  }
+
+  .curalink-main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+  .icon-placeholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #002B53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-section {
+    flex: 1;
+    background-color: #002B53;
+    padding: 1.5rem;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+    align-items: center;
+  }
+  
+  .login-section h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  .login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form input {
+    width: 70%;
+    padding: 0.75rem;
+    margin-bottom: 4rem;
+    border: none;
+    border-radius: 4rem;
+    background-color: #ffff;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+ 
+  .login-form input::placeholder {
+    font-family: "ADLaM Display", system-ui;
+  }
+  
+  .login-form button {
+    padding: 0.75rem;
+    background-color: #00F0FF;
+    border: none;
+    border-radius: 4rem;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    width: 70%;
+    font-size: 1.25rem;
+  }
+  
+  .login-form button:hover {
+    background-color: #00a0d6;
+  }
+  
+  .login-form p {
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    color: #a0d6ff;
+    font-size: 1.5rem;
+  }
+  
+  .login-form p a {
+    color: #00F0FF;
+    text-decoration: none;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+  

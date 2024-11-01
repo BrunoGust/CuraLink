@@ -6,8 +6,11 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <h1>Mi Proyecto</h1>
+        <img src="logo_curalink.jpeg" alt="CuraLink" />
       </div>
+      <div className="navbar-title">
+        <h1>CuraLink</h1>
+        </div>
       <ul className="navbar-links">
         <li>
           <Link to="/">Inicio</Link>
