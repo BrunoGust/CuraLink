@@ -1,7 +1,7 @@
 function SingUp(){
     return (
         <div>
-            <h1>SignUp</h1>
+            <h1>SingUp</h1>
         </div>
     )
 }
