@@ -11,6 +11,7 @@
   .main-section {
     flex: 2;
     text-align: center;
+    margin-left: -5rem;
   }
   .main-logo {
     /*display: inline-block;*/
@@ -100,7 +101,7 @@
     border-radius: 4rem;
     background-color: #ffff;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
   }
  
@@ -116,8 +117,9 @@
     color: black;
     font-weight: bold;
     cursor: pointer;
-    width: 70%;
+    width: 60%;
     font-size: 1.25rem;
+    margin-right: 4rem;
   }
   
   .login-form button:hover {

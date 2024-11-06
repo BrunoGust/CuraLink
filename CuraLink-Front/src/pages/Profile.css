@@ -1,0 +1,77 @@
+
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos del cuerpo */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #003366;
+    color: #333;
+  }
+  
+  /* Contenedor del formulario */
+  .form-container {
+    background-color: #003366; /* Fondo azul */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 600px; /* Ancho del formulario */
+    /*margin: 0px 30px; /* Centrando el formulario */
+    margin-left: 80px;
+    margin-top: 40px;
+    color: white; /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente */
+  }
+  
+  /* Título del formulario */
+  .form-container h1 {
+    text-align: left; /* Centrando el texto */
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  /* Sección de la foto de perfil */
+  .profile-pic {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  .profile-pic img {
+    border-radius: 50%; /* Imagen redondeada */
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Altura de la imagen */
+    object-fit: cover; /* Cubrir la imagen dentro del contenedor */
+  }
+  
+  /* Contenido del formulario */
+  .form-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr; /* Dos columnas iguales */
+    gap: 80px; /* Espaciado entre columnas */
+  }
+  
+  /* Grupo del formulario */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group input{
+    font-weight: bold;
+    margin-bottom: 5px; /* Espaciado inferior */
+  }
+  
+  .form-group input{
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Color del texto */
+    padding: 8px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+
+  .form-buttons { display: flex; justify-content: space-between; /* Espaciado entre botones */ margin-top: 20px; /* Espaciado superior */ } 
+  .btn { background-color: #00caff; /* Fondo verde */ color: white; /* Texto blanco */ padding: 10px 20px; /* Espaciado interno */ border: none; /* Sin borde */ border-radius: 5px; /* Bordes redondeados */ cursor: pointer; /* Cursor de mano */ } 
+  .btn:hover { background-color: #00a0d6; /* Fondo verde oscuro al pasar el ratón */ }
+  
