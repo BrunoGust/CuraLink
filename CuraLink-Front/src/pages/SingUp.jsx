@@ -18,7 +18,7 @@ function SingUp() {
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Contraseña" />
           <button type="submit">REGISTRAR</button>
-          <p>¿Ya tiene una cuenta? <a href="/login">Ingrese aquí</a></p>
+          <p>¿Ya tiene una cuenta? <a href="/">Ingrese aquí</a></p>
         </form>
       </aside>
     </div>

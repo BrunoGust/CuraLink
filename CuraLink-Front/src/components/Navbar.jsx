@@ -19,8 +19,18 @@ const Navbar = () => {
           <Link to="/registro">Registrarse</Link>
         </li>
         <li>
-          <Link to="/services">Servicios</Link>
+          <Link to="/perfil">Perfil</Link>
         </li>
+        <li>
+          <Link to="/triaje">Triaje</Link>
+        </li>
+        <li>
+          <Link to="/consultas-frecuentes">Consultas frecuentes</Link>
+        </li>
+        <li>
+          <Link to="/reservar-cita">Reservar cita</Link>
+        </li>
+        
       </ul>
     </nav>
   );

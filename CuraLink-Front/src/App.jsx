@@ -6,6 +6,7 @@ import SingUp from './pages/SingUp'
 import Triaje from './pages/Triaje'
 import Profile from './pages/Profile'
 import ConsulFrec from './pages/ConsulFrec'
+import ProCita from './pages/ProCita'
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/triaje" element={<Triaje />} />
       <Route path="/perfil" element={<Profile />} />
       <Route path="/consultas-frecuentes" element={<ConsulFrec />} />
+      <Route path="/reservar-cita" element={<ProCita />} />
       
     </Routes>
     </>

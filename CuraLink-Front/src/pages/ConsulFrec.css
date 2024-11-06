@@ -12,9 +12,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 2.5rem;
-    padding-left: 5rem;
-    padding-bottom: 1.5rem;
+    padding: 20px;
     background-color: #003D7A; /* Darker blue header */
     border-bottom: 0.2rem solid black; /* Blue border */
   }

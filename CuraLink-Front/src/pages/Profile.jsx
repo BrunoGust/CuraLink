@@ -37,8 +37,11 @@ function Profile() {
 
   return (
     <div className="form-container">
+      <div className="form-header">
       <h1>Perfil</h1>
-
+        </div>
+      
+      <div className="form-section">
       <div className="form-content">
         <div className="form-group">
           <label>Nombres:</label>
@@ -128,6 +131,7 @@ function Profile() {
             <button className="btn" onClick={saveBtn}>Guardar</button>
           )}
         </div>
+      </div>
       </div>
     </div>
   );

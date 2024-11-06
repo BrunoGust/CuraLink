@@ -37,7 +37,7 @@ const Triaje = () => {
             <img src="microphone-icon.png" alt="Micrófono" />
             
             </button>
-            <p>{isListening ? 'Escuchando sintomas...' : 'Presiona hablar y describir tus sintomas'}</p>
+            <p>{isListening ? 'Escuchando sintomas...' : 'Presiona y habla para describir tus sintomas'}</p>
         
             
         </div>

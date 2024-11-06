@@ -12,6 +12,7 @@
     flex: 2;
     text-align: center;
     color: #a0d6ff;
+    margin-left: -5rem;
   }
   
   .info-section .icon-placeholder {
@@ -24,12 +25,14 @@
     align-items: center;
     font-size: 2rem;
     margin: 1rem auto;
+    
   }
   
   .info-section p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 1rem;
     line-height: 1.5;
+    padding: 3rem;
   }
   
   .register-section {
@@ -48,8 +51,8 @@
     color: white;
     font-size: 3rem;
     margin-bottom: 1rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
   }
   
   .register-form {
@@ -80,7 +83,7 @@
     padding: 0.75rem;
     background-color: #00F0FF;
     border: none;
-    border-radius: 5px;
+    border-radius: 4rem;
     color: black;
     font-weight: bold;
     cursor: pointer;

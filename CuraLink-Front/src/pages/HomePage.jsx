@@ -38,7 +38,7 @@ function HomePage() {
               <input type="email" placeholder="Ingresar usuario o e-mail" />
               <input type="password" placeholder="Ingresar contraseña" />
               <p>¿Nuevo aquí? <a href="/registro">Crea una cuenta ahora!</a></p>
-              <button type="submit" >ENTRAR</button>
+              <button type="submit"  >ENTRAR</button>
               
             </form>
           </aside>

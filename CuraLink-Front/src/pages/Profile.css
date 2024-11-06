@@ -8,13 +8,13 @@
   
   /* Estilos del cuerpo */
   body {
-    font-family: Arial, sans-serif;
+    font-family: "ADLaM Display", system-ui; /* Fuente */
     background-color: #003366;
     color: #333;
   }
   
   /* Contenedor del formulario */
-  .form-container {
+  .form-section {
     background-color: #003366; /* Fondo azul */
     padding: 20px; /* Espaciado interno */
     border-radius: 10px; /* Bordes redondeados */
@@ -27,9 +27,15 @@
   }
   
   /* Título del formulario */
-  .form-container h1 {
-    text-align: left; /* Centrando el texto */
-    margin-bottom: 20px; /* Espaciado inferior */
+  .form-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #003D7A; /* Darker blue header */
+    border-bottom: 0.2rem solid black; /* Blue border */
+    color: white;
   }
   
   /* Sección de la foto de perfil */
