@@ -1,0 +1,112 @@
+/* Estilos generales */
+.consul-frec-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #003D7A;
+    color: white /* Color de fondo gris claro */
+  }
+  
+  /* Cabecera */
+  .consul-frec-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #003D7A; /* Darker blue header */
+    border-bottom: 0.2rem solid black; /* Blue border */
+  }
+  
+  /* Sección de chat */
+  .chat-section {
+    font-family: "ADLaM Display", system-ui;
+    color: black;
+    background-color: #002B5B;
+    flex: 1;
+    overflow-y: scroll; /* Para que el chat se desplace si hay muchos mensajes */
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 35rem;
+    padding-top: 2.5rem;
+    padding-left: 3em;
+    min-height: 30rem;
+    max-height: 30rem;
+    border-radius: 1rem;
+    width: 50%;
+  }
+  
+  .chat-message {
+    display: flex;
+    margin-bottom: 10px;
+    max-width: 97%;
+    
+  }
+
+  .bot-message {
+    justify-content: flex-start;
+  }
+  
+  .user-message {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc; /* Color de fondo del avatar */
+    margin-right: 10px;
+    margin-left: 0.5rem;
+  }
+  
+  .message {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    border: 1px solid #ccc;
+  }
+  
+  /* Campo de entrada */
+  .chat-footer {
+    font-family: "ADLaM Display", system-ui;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    align-items: center;
+    margin-left: 5rem;
+    height: auto;
+  }
+  
+  input[type="text"] {
+    
+    font-family: "ADLaM Display", system-ui;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  button {
+    font-family: "ADLaM Display", system-ui;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5rem;
+    margin-right: 0;
+    
+  }
+  
+  /* Imagen del asistente */
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }

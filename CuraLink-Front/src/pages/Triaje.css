@@ -1,0 +1,138 @@
+.triaje-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #003D7A; /* Dark blue background */
+    color: #fff; /* White text color */
+    
+}
+
+.triaje-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #003D7A; /* Darker blue header */
+    border-bottom: 0.2rem solid black; /* Blue border */
+}
+
+.triaje-section {
+    background-color: #003D7A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+     /* Dark blue background */
+    color: #fff; /* White text color */
+    height: 35rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+
+.text-box, .microphone-box, .summary-box {
+    
+    background-color: #002B5B;
+    border-radius: 2rem;
+    padding: 20px;
+    width: 30%;
+    height: 30rem;
+    font-family: "ADLaM Display", system-ui;
+    font-size: 1rem;
+}
+
+.text-box textarea{
+    font-family: "ADLaM Display", system-ui;
+    font-size: 1.5rem;
+    width: 90%;
+    height: 70%;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-top: 1rem;
+}
+.submit-btn1{
+    background-color: #007BFF; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 1rem;
+    position: relative;
+    left: 50%;
+}
+
+.microphone-btn {
+    position:relative;
+    top: 10%;
+    width: 70%;
+    left: 3rem;
+    height: 50%;
+    border-radius: 9rem;
+    background-color: #00F0FF;
+    cursor: pointer;
+}
+.microphone-box p{
+    position: relative;
+    margin-top: 40%;
+    text-align: center;
+}
+
+.microphone-btn img {
+    width: 50%;
+    height: 50%;
+}
+
+.microphone-btn p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+.submit-btn2{
+    background-color: #007BFF; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 2.5rem;
+    position: relative;
+    left: 50%;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+.summary{
+    align-items: center;
+    justify-content: center;
+    font-family: "ADLaM Display", system-ui;
+    font-size: 1rem;
+    width: 90%;
+    height: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+.summary-box p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.status{
+    font-family: "ADLaM Display", system-ui;
+    font-size: 1.5rem;
+    width: 90%;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    height: 2rem
+}
